@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(243,243,243);
+}
+
+.placeText{
+  background-color: rgba(255, 249, 217, 1) ;
+  border: 2px solid rgba(128, 0, 0, 1);
+}
+
+.Foodimg{
+  /* background-image: url(/public/Rec.png); */
+  /* object-fit: cover; */
+}
+
+.gbe{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* overflow: hidden; */
+  margin: 100px ;
+}
+
+.blurred{
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('path/to/your/image.jpg'); 
+  background-size: cover;
+  filter: blur(15px);  */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  
+}
+
+@media screen and (max-width: 420px) {
+  .upper {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  max-width: 320px;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  .impt{
+    font-size: 12px;
+    /* max-width: 280px; */
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    right: 50px;
+    /* position: relative; */
+  }
+
+  .bbtn{
+    padding: 5px;
+    /* border: 1px solid red; */
+    right: 55px;
+    /* position: absolute; */
+  }
+
+  .bmtn{
+     font-size: 12px;
+    padding: 5px;
+    margin: 0; 
+    display: none;
+  } 
+
+  .favs{
+    text-align: center;
+    gap: 10px;
+  }
+  .favs h1{
+    font-size: 30px;
+    /* margin: 0 7px; */
+  }
+
+  .gbedu{
+    /* border: 2px solid red; */
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .gbeduText{
+    text-align: center;
+    /* justify-content: center; */
+  }
+
+  .shopOrder{
+    flex-direction: column;
+  }
+
+  .shopOrder1 {
+    width: 100%;
+
+  }
+
+  .shopOrder2{
+    flex-direction: column;
+    /* justify-content: space-around; */
+  }
+
+  .shopOrder2 h1{
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    font-size: 35px;
+    margin-left: 20px;
+  }
+
+  .shopImg{
+    height: 150px;
+    width: 150px;
+  }
+
+  .shopEat{
+    width: 100%;
+  }
+
+  .generalText{
+    padding: 0;
+    margin: 0;
+  }
+
+  .timeCover {
+    width: 100%;
+  }
+
+  .timerHead{
+    /* flex-direction: column; */
+    padding: 0;
+    margin: 0;
+  }
+
+  .timer{
+    padding: 2px;
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  /* .timer:nth-child(1){
+    font-size: 10px;
+    border: 1px solid red;
+  } */
+  
+  /* .timer:nth-child(2){
+    border: 1px solid green;
+    font-size: 20px;
+  } */
+
+  .timer span{
+    /* border: 2px solid yellow; */
+    font-size: 15px;
+  }
+   
+}
